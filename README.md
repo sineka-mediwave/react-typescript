@@ -10,3 +10,23 @@ Typescript is a superset of javascript, so valid javascript is also valid typesc
 - Access modifiers
 - Properties
 - Modules
+
+## Type Assertions
+
+```
+let endsWithC = (<string>message).endsWith("c");
+let endsWithC = (message as string).endsWith("c");
+```
+
+type annotation
+
+```
+let drawPoint = (point: { x: number; y: number }) => {
+  console.log(point);
+};
+
+drawPoint({
+  x: 1,
+  y: 2,
+});
+```

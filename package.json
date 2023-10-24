@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "name": "react-typescript",
+  "description": "Typescript is a superset of javascript, so valid javascript is also valid typescript. It has strong typing as c for defining variables and it makes easier to debug them. It has object-oriented features like classes, constructor, access modifiers (public & private fields properties)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
